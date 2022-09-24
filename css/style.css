@@ -859,6 +859,12 @@ footer{
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+
+.collections-wrapper {
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
 }
 
 
@@ -915,6 +921,12 @@ footer{
 
 .footer-nav .container .footer-nav-list{
   margin-bottom: 20px;
+}
+
+
+.collections-wrapper {
+  grid-template-columns: repeat(2, 1fr);
+ 
 }
 
 }
