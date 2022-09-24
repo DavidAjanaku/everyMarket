@@ -855,3 +855,35 @@ footer{
     justify-content: center;
 }
 }
+
+
+
+@media (max-width: 900px){
+
+  .desktop-navigation-menu{
+    display: none;
+  }
+
+  .header-logo{
+    display: none;
+  }
+
+  .social-container{
+    display: none;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+
+.product-featured .showcase{
+  flex-wrap: wrap;
+}
+
+.showcase-banner img{
+  width: 200px;
+}
+
+}
