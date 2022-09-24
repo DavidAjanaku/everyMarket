@@ -23,6 +23,10 @@
   display: flex;
 }
 
+.header-main__actions .action-btn img{
+  width: 30px;
+}
+
 .header-main{
   border-bottom: 1px solid hsl(0, 0%, 92%);
 }
@@ -1035,5 +1039,9 @@ footer{
 
 .banner-title{
   width: 100%;
+}
+
+.header-main__actions .heart,.bag{
+  display: none;
 }
 }
