@@ -1044,4 +1044,9 @@ footer{
 .header-main__actions .heart,.bag{
   display: none;
 }
+
+.mobile-bottom-navigation .action-btn {
+  width: 50px;
+  position: relative;
+}
 }
