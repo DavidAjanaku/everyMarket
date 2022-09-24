@@ -10,6 +10,14 @@ const mobileSidebar = document.querySelector('.mobile-sidebar')
 
 const sidebarCategory = document.querySelector('.sidebar-category');
 
+
+sidebarCategory.addEventListener('click', function(){
+    mobileSidebar.classList.add('active')
+    overlay.classList.add('active')
+
+
+})
+
 mobileNavIcon.addEventListener('click', function(){
     console.log(mobileMenu);
     mobileMenu.classList.add('active')
@@ -21,13 +29,7 @@ mobileNavIcon.addEventListener('click', function(){
 })
 
 
-sidebarCategory.addEventListener('click', function(){
-    mobileSidebar.classList.add('active')
-    overlay.classList.add('active')
-    sidebarCategory.classList.add('active')
 
-
-})
 
 closeBtn.addEventListener('click', function(){
     mobileMenu.classList.remove('active')

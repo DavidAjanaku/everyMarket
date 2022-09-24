@@ -997,7 +997,6 @@ footer{
   visibility: hidden;
   opacity: 0;
   transition: .5s ease;
-  display: block;
   padding: 20px 10px;
 }
 
@@ -1038,7 +1037,7 @@ footer{
 }
 
 .mobile-sidebar .showcase-wrapper{
-  margin-top: 130px;
+  margin-top: 50px;
 }
 
 
