@@ -16,8 +16,16 @@ mobileNavIcon.addEventListener('click', function(){
    
 })
 
+
+
 closeBtn.addEventListener('click', function(){
     mobileMenu.classList.remove('active')
     overlay.classList.remove('active')
     console.log(closeBtn);
+})
+
+overlay.addEventListener('click', function(){
+    overlay.classList.remove('active');
+    mobileMenu.classList.remove('active')
+
 })
